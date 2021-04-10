@@ -2,7 +2,7 @@ var listOfActivities=[];
 
 var input =document.getElementById("input");
 
-var toDoList =document.getElementById("toDoList");
+var toDoList = document.getElementById('todolist')
 
 document.getElementById("button").onclick=click;
 
@@ -13,7 +13,7 @@ function click(){
 
     input.value="";
 
-    showList()
+    showList();
 }
 
 function showList(){
